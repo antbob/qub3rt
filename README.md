@@ -81,7 +81,8 @@ MindCub3r robot
 ===============
 
 The model can be used with MindCub3r robot to solve real cubes. Schematics for
-MindCub3r robot can be found at https://mindcuber.com/mindcub3r/mindcub3r.html
+MindCub3r robot can be found at
+https://mindcuber.com/mindcub3r/mindcub3r.html
 Either home or educational set should do, whatever you have. Note that either
 infrared or ultrasonic sensors can be used, the software should work for both
 but if you dont have either strictly its not required and with little effort
@@ -105,14 +106,16 @@ EV3 Dependencies
 - ev3dev_examples
 - rpyc 4.1.1
 
-ev3dev-stretch can be found at https://www.ev3dev.org/downloads/ along with
-installation and setup instructions. You gonna need to setup networking as
-well. If you have a Wi-Fi dongle compatible with ev3dev that is ideal but
-you can also set it up via Bluetooth or tethered via USB. RTFM at ev3dev.org
+ev3dev-stretch can be found at
+https://www.ev3dev.org/downloads/
+along with installation and setup instructions. You gonna need to setup
+networking as well. Wi-Fi dongle compatible with ev3dev is ideal but you
+can also set it up via Bluetooth or tethered via USB. RTFM at ev3dev.org
 
-ev3dev_examples currently doesnt work so it has to be cloned off my private
-branch at https://github.com/antbob/ev3dev_examples/tree/tf-rpyc which has
-all the changes required to make this work along with RPyC support.
+The original ev3dev_examples currently does not work at all so it has to be
+cloned off my private 'tf-rpyc' branch at
+https://github.com/antbob/ev3dev_examples/tree/tf-rpyc
+which has all the changes required to make this work along with RPyC support.
 Note that ev3dev_examples requires numpy and colormath which can be simply
 installed with pip on ev3 brick. See ev3dev_examples README for details.
 
@@ -166,6 +169,6 @@ This one is chatty enough so you can monitor progress. Note that color
 matching on ev3 brick is rather slow so be patient and remember that
 you can monitor progress on the brick side via aforementioned log files.
 
-Well, congratulations for making it this far and hope you got stocked
+Well, congratulations on making it this far and hope you got stocked
 when you finally made this thing work just as I did :)
 Peace out!
