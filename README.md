@@ -37,8 +37,8 @@ Dataset
 
 The model comes with checkpoint files containing model weights ie it comes
 pre-trained. This is just to save time and energy however should you wish
-to train the model from scratch the training set can be found separately at
-
+to train the model from scratch the dataset can be found separately at
+https://www.kaggle.com/antbob/rubiks-cube-cfop-solutions
 Furthermore the original scripts to generate the training set can be found
 in this repository so a different dataset to train on can be generated eg
 a larger dataset or perhaps a dataset with a different solving method or
