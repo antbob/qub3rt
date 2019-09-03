@@ -3,7 +3,7 @@ qub3rt
 
 qub3rt is TensorFlow model that can solve Rubik's cube. It can be used either
 standalone to solve virtual cube or real cube when connected to Lego EV3
-MindCub3r robot.
+MindCub3r robot. Timelapse video of the robot in action at https://youtu.be/Xj4HfMxx3QM
 
 TL;DR
 =====
